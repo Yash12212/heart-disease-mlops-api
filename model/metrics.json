@@ -1,0 +1,23 @@
+{
+  "dataset": "johnsmith88/heart-disease-dataset",
+  "model": "RandomForestClassifier",
+  "n_estimators": 200,
+  "test_size": 0.2,
+  "random_state": 42,
+  "accuracy": 1.0,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}
