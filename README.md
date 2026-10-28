@@ -42,6 +42,7 @@ The dataset is downloaded from Kaggle and stored in the `data/` folder.
 │   ├── model.joblib                                # trained model
 │   └── metrics.json                                # model parameters and accuracy
 ├── app/
+│   ├── __init__.py
 │   ├── main.py                                     # FastAPI application
 │   └── schemas.py                                  # request / response models
 ├── tests/
@@ -49,6 +50,9 @@ The dataset is downloaded from Kaggle and stored in the `data/` folder.
 ├── data/
 │   └── heart.csv                                   # dataset downloaded from Kaggle
 ├── Dockerfile
+├── .dockerignore
+├── .gitignore
+├── conftest.py                                     # puts the project root on the path for tests
 ├── requirements.txt
 └── .github/workflows/ci.yml
 ```
